@@ -12,16 +12,22 @@
         android:id="@+id/appname"
         android:layout_width="442dp"
         android:layout_height="286dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/z"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="268dp" />
+        tools:layout_editor_absoluteX="-16dp" />
 
     <ImageView
         android:id="@+id/mainlogo"
-        android:layout_width="149dp"
-        android:layout_height="136dp"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="192dp" />
+        android:layout_width="128dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintBottom_toTopOf="@+id/appname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
